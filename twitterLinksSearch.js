@@ -3,7 +3,7 @@ import Datura from "datura-js";
 
 // Initialize the Datura client with your API key
 // Replace 'your-api-key' with your actual API key
-const datura = new Datura({ apiKey: 'your-api-key' });
+const datura = new Datura('your-api-key');
 
 /**
  * Perform a Twitter post search using the Datura client.
