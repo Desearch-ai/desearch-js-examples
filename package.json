@@ -1,6 +1,7 @@
 {
   "name": "datura-js-example",
   "version": "1.0.0",
+  "type": "module",
   "description": "Examples of using the datura-js library to perform various types of searches using the Datura API.",
   "main": "index.js",
   "scripts": {

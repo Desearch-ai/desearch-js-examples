@@ -1,5 +1,5 @@
 // Import the Datura library
-const Datura = require('datura-js');
+import Datura from "datura-js";
 
 // Initialize the Datura client with your API key
 // Replace 'your-api-key' with your actual API key
