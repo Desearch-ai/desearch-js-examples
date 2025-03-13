@@ -1,0 +1,25 @@
+{
+  "name": "datura-js-example",
+  "version": "1.0.0",
+  "description": "Examples of using the datura-js library to perform various types of searches using the Datura API.",
+  "main": "index.js",
+  "scripts": {
+    "aiSearch": "node aiSearch.js",
+    "basicTwitterSearch": "node basicTwitterSearch.js",
+    "webLinksSearch": "node webLinksSearch.js",
+    "twitterLinksSearch": "node twitterLinksSearch.js",
+    "basicWebSearch": "node basicWebSearch.js"
+  },
+  "keywords": [
+    "datura",
+    "api",
+    "search",
+    "twitter",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "datura-js": "^0.0.3"
+  }
+}
