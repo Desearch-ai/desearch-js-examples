@@ -25,6 +25,7 @@ const datura = new Datura('your-api-key');
  *   - min_retweets (number): The minimum number of retweets a tweet must have to be included in the search results.
  *   - min_replies (number): The minimum number of replies a tweet must have to be included in the search results.
  *   - min_likes (number): The minimum number of likes a tweet must have to be included in the search results.
+ *   - count (number): The number of search results to return.
  *
  * Output:
  *   - Logs the search results to the console. The results are structured as follows:
@@ -75,7 +76,8 @@ async function performBasicTwitterSearch() {
             is_image: true,
             min_retweets: 1,
             min_replies: 1,
-            min_likes: 1
+            min_likes: 1,
+            count: 10
         });
 
         // Print the search results
