@@ -104,4 +104,4 @@ async function performWebLinksSearch() {
 }
 
 // Call the function to perform the Web links search
-performAISearch();
+performWebLinksSearch();
