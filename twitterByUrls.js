@@ -49,7 +49,7 @@ const datura = new Datura('your-api-key');
 async function twitterByUrls() {
     try {
         // Twitter post search
-        const twitterByUrlsResult = await datura.twitterByUrls({ urls: [''] });
+        const twitterByUrlsResult = await datura.twitterByUrls(['tweet url']);
 
         // Print the search results
         console.log(twitterByUrlsResult);

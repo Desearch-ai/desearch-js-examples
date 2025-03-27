@@ -90,7 +90,6 @@ async function performWebLinksSearch() {
                 "Reddit Search",
                 "Wikipedia Search",
                 "Youtube Search",
-                "Twitter Search",
                 "ArXiv Search"
             ],
             model: "NOVA",
