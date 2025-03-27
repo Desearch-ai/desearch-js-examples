@@ -22,6 +22,6 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "datura-js": "^0.0.6"
+    "datura-js": "^0.0.9"
   }
 }
