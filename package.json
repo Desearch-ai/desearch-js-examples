@@ -1,8 +1,8 @@
 {
-  "name": "datura-js-example",
+  "name": "desearch-js-example",
   "version": "1.0.0",
   "type": "module",
-  "description": "Examples of using the datura-js library to perform various types of searches using the Datura API.",
+  "description": "Examples of using the desearch-js library to perform various types of searches using the Datura API.",
   "scripts": {
     "aiSearch": "node aiSearch.js",
     "basicTwitterSearch": "node basicTwitterSearch.js",
@@ -13,7 +13,7 @@
     "twitterById": "node twitterById.js"
   },
   "keywords": [
-    "datura",
+    "desearch",
     "api",
     "search",
     "twitter",
@@ -22,6 +22,6 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "datura-js": "^0.0.9"
+    "desearch-js": "^0.0.9"
   }
 }
