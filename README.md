@@ -1,30 +1,30 @@
-# Datura JS Example
+# Desearch JS Example
 
-This repository contains examples of using the `datura-js` library to perform various types of searches using the Datura API. The examples demonstrate how to perform AI searches, Twitter searches, web link searches, and more.
+This repository contains examples of using the `desearch-js` library to perform various types of searches using the Desearch API. The examples demonstrate how to perform AI searches, Twitter searches, web link searches, and more.
 
 ## Prerequisites
 
 - Node.js installed on your machine.
-- An API key for the Datura service.
+- An API key for the Desearch service.
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/datura-js-example.git
+git clone https://github.com/yourusername/desearch-js-example.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd datura-js-example
+cd desearch-js-example
 ```
 
 ## Prerequisites
 
 - Node.js installed on your machine (version 20.18.1).
-- An API key for the Datura service.
+- An API key for the Desearch service.
 
 3. Install the dependencies:
 
@@ -34,11 +34,11 @@ npm install
 
 ## Usage
 
-Before running any of the scripts, ensure you have replaced `'your-api-key'` with your actual Datura API key in the respective files.
+Before running any of the scripts, ensure you have replaced `'your-api-key'` with your actual Desearch API key in the respective files.
 
 ### AI Search
 
-The `AISearch.js` script demonstrates how to perform an AI search using the Datura client.
+The `AISearch.js` script demonstrates how to perform an AI search using the Desearch client.
 
 To run the AI Search script, use the following command:
 
@@ -58,7 +58,7 @@ npm run basicTwitterSearch
 
 ### Web Links Search
 
-The `webLinksSearch.js` script performs a search for web links using the Datura client.
+The `webLinksSearch.js` script performs a search for web links using the Desearch client.
 
 To run the Web Links Search script, use the following command:
 
