@@ -1,12 +1,12 @@
-// Import the Datura library
-import Datura from "datura-js";
+// Import the Desearch library
+import Desearch from "desearch-js";
 
-// Initialize the Datura client with your API key
+// Initialize the Desearch client with your API key
 // Replace 'your-api-key' with your actual API key
-const datura = new Datura('your-api-key');
+const desearch = new Desearch('your-api-key');
 
 /**
- * Perform a Web links search using the Datura client.
+ * Perform a Web links search using the Desearch client.
  *
  * This function performs a Web links search with the specified parameters and logs the results.
  *
@@ -82,7 +82,7 @@ const datura = new Datura('your-api-key');
 async function performWebLinksSearch() {
     try {
         // Web links search
-        const webLinksResult = await datura.webLinksSearch({
+        const webLinksResult = await desearch.webLinksSearch({
             prompt: "Bittensor",
             tools: [
                 "Web Search",

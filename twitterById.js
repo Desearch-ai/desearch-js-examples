@@ -1,12 +1,12 @@
-// Import the Datura library
-import Datura from "datura-js";
+// Import the Desearch library
+import Desearch from "desearch-js";
 
-// Initialize the Datura client with your API key
+// Initialize the Desearch client with your API key
 // Replace 'your-api-key' with your actual API key
-const datura = new Datura('your-api-key');
+const desearch = new Desearch('your-api-key');
 
 /**
- * Perform a Twitter post search using the Datura client.
+ * Perform a Twitter post search using the Desearch client.
  *
  * This function searches for tweets by their ID.
  *
@@ -49,7 +49,7 @@ const datura = new Datura('your-api-key');
 async function twitterById() {
     try {
         // Twitter post search
-        const twitterByIdResult = await datura.twitterById('your-tweet-id');
+        const twitterByIdResult = await desearch.twitterById('your-tweet-id');
 
         // Print the search results
         console.log(twitterByIdResult);

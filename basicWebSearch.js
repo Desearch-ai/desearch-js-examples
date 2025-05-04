@@ -1,12 +1,12 @@
-// Import the Datura library
-import Datura from "datura-js";
+// Import the Desearch library
+import Desearch from "desearch-js";
 
-// Initialize the Datura client with your API key
+// Initialize the Desearch client with your API key
 // Replace 'your-api-key' with your actual API key
-const datura = new Datura('your-api-key');
+const desearch = new Desearch('your-api-key');
 
 /**
- * Perform a basic Web search using the Datura client.
+ * Perform a basic Web search using the Desearch client.
  *
  * This function performs a Web search with the specified parameters and logs the results.
  *
@@ -32,8 +32,8 @@ const datura = new Datura('your-api-key');
  */
 async function performBasicWebSearch() {
     try {
-        // Basic Web search
-        const basicWebResult = await datura.basicWebSearch({
+        // Web search
+        const basicWebResult = await desearch.webSearch({
             query: "latest news on AI",
             num: 10,
             start: 0

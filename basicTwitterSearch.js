@@ -1,12 +1,12 @@
-// Import the Datura library
-import Datura from "datura-js";
+// Import the Desearch library
+import Desearch from "desearch-js";
 
-// Initialize the Datura client with your API key
+// Initialize the Desearch client with your API key
 // Replace 'your-api-key' with your actual API key
-const datura = new Datura('your-api-key');
+const desearch = new Desearch('your-api-key');
 
 /**
- * Perform a basic Twitter search using the Datura client.
+ * Perform a basic Twitter search using the Desearch client.
  *
  * This function performs a Twitter search with the specified parameters and logs the results.
  *
@@ -61,8 +61,8 @@ const datura = new Datura('your-api-key');
  */
 async function performBasicTwitterSearch() {
     try {
-        // Basic Twitter search
-        const basicTwitterResult = await datura.basicTwitterSearch({
+        // Perform the Twitter search
+        const basicTwitterResult = await desearch.twitterSearch({
             query: "Whats going on with Bittensor",
             sort: "Top",
             user: "elonmusk",

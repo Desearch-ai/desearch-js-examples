@@ -1,12 +1,12 @@
-// Import the Datura library
-import Datura from "datura-js"
+// Import the Desearch library
+import Desearch from "desearch-js"
 
-// Initialize the Datura client with your API key
+// Initialize the Desearch client with your API key
 // Replace 'your-api-key' with your actual API key
-const datura = new Datura('your-api-key');
+const desearch = new Desearch('your-api-key');
 
 /**
- * Perform an AI search using the Datura client.
+ * Perform an AI search using the Desearch client.
  *
  * This function performs an AI search with the specified parameters and logs the results.
  *
@@ -94,7 +94,7 @@ const datura = new Datura('your-api-key');
 async function performAISearch() {
     try {
         // Desearch AI Search
-        const aiSearchResult = await datura.AISearch({
+        const aiSearchResult = await desearch.AISearch({
             prompt: "Bittensor",  // The search query
             tools: [
                 "Web Search",
