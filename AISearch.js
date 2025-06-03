@@ -13,13 +13,13 @@ const desearch = new Desearch('your-api-key');
  * Input:
  *   - prompt (string): The search query to be used in the AI search.
  *   - tools (array of strings): A list of tools available for conducting the search. These include:
- *       - "Web Search"
- *       - "Hacker News Search"
- *       - "Reddit Search"
- *       - "Wikipedia Search"
- *       - "Youtube Search"
- *       - "Twitter Search"
- *       - "ArXiv Search"
+ *       - "web"
+ *       - "hackernews"
+ *       - "reddit"
+ *       - "wikipedia"
+ *       - "youtube"
+ *       - "twitter"
+ *       - "arxiv"
  *   - model (string): The model to use for the search. Options include:
  *       - "NOVA"
  *       - "ORBIT"
@@ -97,13 +97,13 @@ async function performAISearch() {
         const aiSearchResult = await desearch.AISearch({
             prompt: "Bittensor",  // The search query
             tools: [
-                "Web Search",
-                "Hacker News Search",
-                "Reddit Search",
-                "Wikipedia Search",
-                "Youtube Search",
-                "Twitter Search",
-                "ArXiv Search"
+                "web",
+                "hackernews",
+                "reddit",
+                "wikipedia",
+                "youtube",
+                "twitter",
+                "arxiv"
             ],  // List of tools to use for the search
             model: "NOVA",  // The model to use for the search
             date_filter: "PAST_24_HOURS",  // Filter results from the past 24 hours

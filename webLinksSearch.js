@@ -13,13 +13,13 @@ const desearch = new Desearch('your-api-key');
  * Input:
  *   - prompt (string): The search query to be used in the Web links search.
  *   - tools (array of strings): A list of tools available for conducting the search. These include:
- *       - "Web Search"
- *       - "Hacker News Search"
- *       - "Reddit Search"
- *       - "Wikipedia Search"
- *       - "Youtube Search"
- *       - "Twitter Search"
- *       - "ArXiv Search"
+ *       - "web"
+ *       - "hackernews"
+ *       - "reddit"
+ *       - "wikipedia"
+ *       - "youtube"
+ *       - "twitter"
+ *       - "arxiv"
  *   - model (string): The model to use for the search. Options include:
  *       - "NOVA"
  *       - "ORBIT"
@@ -85,12 +85,12 @@ async function performWebLinksSearch() {
         const webLinksResult = await desearch.webLinksSearch({
             prompt: "Bittensor",
             tools: [
-                "Web Search",
-                "Hacker News Search",
-                "Reddit Search",
-                "Wikipedia Search",
-                "Youtube Search",
-                "ArXiv Search"
+                "web",
+                "hackernews",
+                "reddit",
+                "wikipedia",
+                "youtube",
+                "arxiv"
             ],
             model: "NOVA",
         });
