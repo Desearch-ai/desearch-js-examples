@@ -20,10 +20,6 @@ const desearch = new Desearch('your-api-key');
  *       - "youtube"
  *       - "twitter"
  *       - "arxiv"
- *   - model (string): The model to use for the search. Options include:
- *       - "NOVA"
- *       - "ORBIT"
- *       - "HORIZON"
  *   - date_filter (string): The time range for filtering search results. Options include:
  *       - "PAST_24_HOURS"
  *       - "PAST_2_DAYS"
@@ -105,7 +101,6 @@ async function performAISearch() {
                 "twitter",
                 "arxiv"
             ],  // List of tools to use for the search
-            model: "NOVA",  // The model to use for the search
             date_filter: "PAST_24_HOURS",  // Filter results from the past 24 hours
             streaming: false,  // Whether to stream results
         });

@@ -20,10 +20,6 @@ const desearch = new Desearch('your-api-key');
  *       - "youtube"
  *       - "twitter"
  *       - "arxiv"
- *   - model (string): The model to use for the search. Options include:
- *       - "NOVA"
- *       - "ORBIT"
- *       - "HORIZON"
  *   - streaming (boolean): A flag indicating whether to stream the search results.
  *
  * Output:
@@ -91,8 +87,7 @@ async function performWebLinksSearch() {
                 "wikipedia",
                 "youtube",
                 "arxiv"
-            ],
-            model: "NOVA",
+            ]
         });
 
         // Print the search results

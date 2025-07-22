@@ -12,10 +12,6 @@ const desearch = new Desearch('your-api-key');
  *
  * Input:
  *   - prompt (string): The search query to be used in the Twitter post search.
- *   - model (string): The model to use for the search. Options include:
- *       - "NOVA"
- *       - "ORBIT"
- *       - "HORIZON"
  *
  * Output:
  *   - Logs the search results to the console. The results are structured as follows:
@@ -55,8 +51,7 @@ async function performTwitterLinksSearch() {
     try {
         // Twitter post search
         const twitterLinksResult = await desearch.twitterLinksSearch({
-            prompt: "Bittensor",
-            model: "NOVA",
+            prompt: "Bittensor"
         });
 
         // Print the search results
