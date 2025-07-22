@@ -30,6 +30,7 @@ const desearch = new Desearch('your-api-key');
  *       - "PAST_YEAR"
  *       - "PAST_2_YEARS"
  *   - streaming (boolean): A flag indicating whether to stream the search results.
+ *   - count (number): The maximum number of search results to retrieve.
  *
  * Output:
  *   - Logs the search results to the console. The results are structured as follows:
@@ -103,6 +104,7 @@ async function performAISearch() {
             ],  // List of tools to use for the search
             date_filter: "PAST_24_HOURS",  // Filter results from the past 24 hours
             streaming: false,  // Whether to stream results
+            count: 10,  // Number of results to return
         });
 
         // Print the search results
