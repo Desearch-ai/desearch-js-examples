@@ -12,6 +12,7 @@ const desearch = new Desearch('your-api-key');
  *
  * Input:
  *   - prompt (string): The search query to be used in the Twitter post search.
+ *   - count (number): The maximum number of search results to retrieve.
  *
  * Output:
  *   - Logs the search results to the console. The results are structured as follows:
@@ -51,7 +52,8 @@ async function performTwitterLinksSearch() {
     try {
         // Twitter post search
         const twitterLinksResult = await desearch.twitterLinksSearch({
-            prompt: "Bittensor"
+            prompt: "Bittensor",
+            count: 10
         });
 
         // Print the search results

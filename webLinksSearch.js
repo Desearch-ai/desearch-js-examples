@@ -20,7 +20,7 @@ const desearch = new Desearch('your-api-key');
  *       - "youtube"
  *       - "twitter"
  *       - "arxiv"
- *   - streaming (boolean): A flag indicating whether to stream the search results.
+ *   - count (number): The maximum number of search results to retrieve.
  *
  * Output:
  *   - Logs the search results to the console. The results are structured as follows:
@@ -87,7 +87,8 @@ async function performWebLinksSearch() {
                 "wikipedia",
                 "youtube",
                 "arxiv"
-            ]
+            ],
+            count: 10
         });
 
         // Print the search results
