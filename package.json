@@ -9,6 +9,7 @@
     "webLinksSearch": "node webLinksSearch.js",
     "twitterLinksSearch": "node twitterLinksSearch.js",
     "basicWebSearch": "node basicWebSearch.js",
+    "webCrawl": "node webCrawl.js",
     "twitterByUrls": "node twitterByUrls.js",
     "twitterById": "node twitterById.js"
   },

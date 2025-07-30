@@ -86,6 +86,16 @@ To run the Basic Web Search script, use the following command:
 npm run basicWebSearch
 ```
 
+### Web Crawl
+
+The `webCrawl.js` script shows how to perform a web crawl.
+
+To run the Web Crawl script, use the following command:
+
+```bash
+npm run webCrawl
+```
+
 ### Fetch Tweets by URLs 
 
 The `twitterByUrls.js` script shows how to perform a search for Tweets by URLs.
