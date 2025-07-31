@@ -5,10 +5,12 @@
   "description": "Examples of using the desearch-js library to perform various types of searches using the Datura API.",
   "scripts": {
     "aiSearch": "node aiSearch.js",
+    "deepResearch": "node deepResearch.js",
     "basicTwitterSearch": "node basicTwitterSearch.js",
     "webLinksSearch": "node webLinksSearch.js",
     "twitterLinksSearch": "node twitterLinksSearch.js",
     "basicWebSearch": "node basicWebSearch.js",
+    "webCrawl": "node webCrawl.js",
     "twitterByUrls": "node twitterByUrls.js",
     "twitterById": "node twitterById.js"
   },

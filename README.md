@@ -46,6 +46,16 @@ To run the AI Search script, use the following command:
 npm run aiSearch
 ```
 
+### Deep Research
+
+The `deepResearch.js` script demonstrates how to perform an Deep research using the Desearch client.
+
+To run the Deep research script, use the following command:
+
+```bash
+npm run deepResearch
+```
+
 ### Basic Twitter Search
 
 The `basicTwitterSearch.js` script shows how to perform a basic Twitter search with various filters.
@@ -86,7 +96,17 @@ To run the Basic Web Search script, use the following command:
 npm run basicWebSearch
 ```
 
-### Fetch Tweets by URLs 
+### Web Crawl
+
+The `webCrawl.js` script shows how to perform a web crawl.
+
+To run the Web Crawl script, use the following command:
+
+```bash
+npm run webCrawl
+```
+
+### Fetch Tweets by URLs
 
 The `twitterByUrls.js` script shows how to perform a search for Tweets by URLs.
 
@@ -96,8 +116,7 @@ To run the Fetch Tweets by URLs script, use the following command:
 npm run twitterByUrls
 ```
 
-
-### Fetch Tweets by ID 
+### Fetch Tweets by ID
 
 The `twitterById.js` script shows how to perform a search for Tweets by ID.
 
@@ -106,7 +125,6 @@ To run the Fetch Tweets by ID script, use the following command:
 ```bash
 npm run twitterById
 ```
-
 
 ## License
 
